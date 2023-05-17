@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler", // node
+    "isolatedModules": true,
+    "checkJs": true,
+    "noUncheckedIndexedAccess": false
+  },
+  "include": ["**/*.ts", "**/*.cjs", "**/*.mjs"],
+  "exclude": ["node_modules/**/*"],
+  "ts-node": { "esm": true, "files": true }
+}
